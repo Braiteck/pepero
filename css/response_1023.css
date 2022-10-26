@@ -1,0 +1,1174 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 34px;
+    }
+
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: -20px;
+
+        height: 12px;
+    }
+
+    .swiper-pagination-bullet
+    {
+        width: 12px;
+        height: 12px;
+
+        border-width: 2px;
+    }
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 10px !important;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-left: -20px;
+    }
+
+    .tabs button
+    {
+        font-size: 16px;
+
+        margin-left: 20px;
+    }
+
+    .tabs button:after
+    {
+        bottom: -8px;
+
+        height: 5px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-left: 24px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+    .accordion_item .head .icon,
+    .accordion_item .head .icon svg
+    {
+        width: 13px;
+        height: 23px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 4px 24px 24px 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        height: 92px;
+    }
+
+
+    header .logo
+    {
+        transform: scale(.68);
+    }
+
+
+    header .menu
+    {
+        width: calc(50% - 108px);
+
+        justify-content: flex-end;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 28px;
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h3
+    {
+        font-size: 25px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .text_block .bg
+    {
+        padding: 32px 28px;
+    }
+
+
+    .text_block ol li:before
+    {
+        font-size: 17px;
+    }
+
+
+    .text_block .message
+    {
+        padding: 30px;
+
+        border-radius: 28px;
+    }
+
+    .text_block .message .icon
+    {
+        top: 26px;
+        left: 30px;
+    }
+
+    .text_block .message .title
+    {
+        font-size: 25px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 48px;
+        margin-bottom: 48px;
+
+        border-radius: 28px;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .welcome .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .welcome .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .welcome .item
+    {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .welcome .thumb
+    {
+        width: 140px;
+        height: 140px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .welcome .name
+    {
+        font-size: 18px;
+
+        width: calc(100% - 164px);
+        min-height: 0;
+        padding-top: 68px;
+        padding-left: 0;
+    }
+
+
+    .welcome .number
+    {
+        font-size: 22px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*----------
+        Draw
+    ----------*/
+    .draw
+    {
+        padding-top: 60px;
+    }
+
+
+    .draw .image
+    {
+        width: calc(100% - 308px);
+        height: 580px;
+        margin-right: -40px;
+        margin-left: -76px;
+    }
+
+
+    .draw .data
+    {
+        width: 424px;
+        margin-right: 0;
+    }
+
+
+    .draw .title
+    {
+        font-size: 44px;
+    }
+
+
+    .draw .desc
+    {
+        font-size: 17px;
+
+        padding-right: 112px;
+    }
+
+    .draw .desc img
+    {
+        width: 92px;
+        height: 92px;
+    }
+
+    .draw .desc > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .draw .items
+    {
+        margin-top: 36px;
+    }
+
+
+    .draw .item
+    {
+        font-size: 16px;
+
+        padding: 12px 32px 12px 68px;
+    }
+
+    .draw .item + .item
+    {
+        margin-top: 32px;
+    }
+
+    .draw .item:nth-child(1):before
+    {
+        height: 88px;
+    }
+
+    .draw .item:nth-child(2):before
+    {
+        height: 64px;
+    }
+
+    .draw .item:nth-child(3):before
+    {
+        height: 60px;
+    }
+
+
+    .draw .number
+    {
+        left: 24px;
+
+        height: 60px;
+    }
+
+    .draw .number img
+    {
+        height: 60px;
+    }
+
+
+    .draw .link a
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .block_title
+    {
+        font-size: 34px;
+    }
+
+
+    .history .block_desc
+    {
+        font-size: 18px;
+
+        width: 624px;
+    }
+
+
+    .history .year_info
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards .row
+    {
+        justify-content: center;
+    }
+
+
+    .awards .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .swiper-button-next .icon,
+    .videos .swiper-button-prev .icon
+    {
+        width: 15px;
+        height: 27px;
+    }
+
+
+    .videos .video .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+    .videos .video .icon svg
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*---------------
+        Year info
+    ---------------*/
+    .year_info .title
+    {
+        font-size: 23px;
+
+        margin-bottom: 36px;
+    }
+
+
+
+    /*-------------------
+        First holiday
+    -------------------*/
+    .first_holiday .item
+    {
+        font-size: 15px;
+    }
+
+    .first_holiday .item .thumb
+    {
+        border-radius: 24px;
+    }
+
+
+
+    /*------------
+        Prizes
+    ------------*/
+    .prizes
+    {
+        min-height: 600px;
+        margin-bottom: -68px;
+        padding-top: 92px;
+    }
+
+
+    .prizes .image
+    {
+        width: 100%;
+        height: 360px;
+        margin-left: 0;
+
+        order: 2;
+    }
+
+
+    .prizes .title
+    {
+        font-size: 24px;
+
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .prizes .title br
+    {
+        display: none;
+    }
+
+    .prizes .title span
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*---------
+        Try
+    ---------*/
+    .try .block_title
+    {
+        font-size: 34px;
+    }
+
+
+    .try .item .thumb
+    {
+        height: 180px;
+    }
+
+
+    .try .item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .try .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .try .form
+    {
+        padding: 32px 40px 40px;
+
+        border-radius: 28px;
+    }
+
+
+    .try .form .title
+    {
+        font-size: 20px;
+
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+
+    .try .form .title br
+    {
+        display: none;
+    }
+
+    .try .form .title b
+    {
+        font-size: 30px;
+    }
+
+
+    .try .form .fields
+    {
+        width: 100%;
+    }
+
+
+    .try .data .hero
+    {
+        left: 40px;
+    }
+
+    .try .data .hero3
+    {
+        right: 40px;
+    }
+
+
+
+    /*-------------
+        Recipes
+    -------------*/
+    .recipes
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Master
+    ------------*/
+    .master .block_title
+    {
+        font-size: 34px;
+    }
+
+
+    .master .block_desc
+    {
+        font-size: 18px;
+
+        width: 624px;
+    }
+
+
+    .master .item
+    {
+        font-size: 18px;
+    }
+
+    .master .item .thumb
+    {
+        margin-bottom: 16px;
+
+        border-radius: 28px;
+    }
+
+
+
+    /*-----------------
+        Master form
+    -----------------*/
+    .master_form
+    {
+        min-height: 780px;
+        padding: 92px 0 122px;
+    }
+
+
+    .master_form .item
+    {
+        font-size: 16px;
+    }
+
+    .master_form .item b
+    {
+        font-size: 20px;
+
+        margin-top: 4px;
+    }
+
+
+    .master_form .item .thumb
+    {
+        height: 172px;
+    }
+
+    .master_form .item .thumb img
+    {
+        max-width: 92%;
+    }
+
+    .master_form .item .thumb img.absolute
+    {
+        max-width: 84%;
+    }
+
+
+    .master_form .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .master_form .form
+    {
+        padding: 32px 40px 40px;
+
+        border-radius: 24px;
+    }
+
+
+    .master_form .form .title
+    {
+        font-size: 18px;
+
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+
+    .master_form .form .title br
+    {
+        display: none;
+    }
+
+    .master_form .form .title b
+    {
+        font-size: 30px;
+    }
+
+
+    .master_form .form .fields
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------
+        Game
+    ----------*/
+    .game
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .game .block_title
+    {
+        font-size: 34px;
+    }
+
+
+    .game .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .game .item
+    {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .game .thumb
+    {
+        width: 140px;
+        height: 140px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .game .name
+    {
+        font-size: 16px;
+
+        width: calc(100% - 164px);
+        min-height: 0;
+        padding-top: 68px;
+        padding-left: 0;
+    }
+
+
+    .game .number
+    {
+        font-size: 22px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*------------------
+        Your results
+    ------------------*/
+    .your_results
+    {
+        min-height: 928px;
+        margin-bottom: 16px;
+        padding: 90px 0;
+    }
+
+
+    .your_results .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .your_results .results .img
+    {
+        width: 560px;
+    }
+
+
+    .your_results .form
+    {
+        padding: 32px 40px 40px;
+
+        border-radius: 28px;
+    }
+
+
+    .your_results .form .title
+    {
+        font-size: 20px;
+
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+
+    .your_results .form .title br
+    {
+        display: none;
+    }
+
+    .your_results .form .title b
+    {
+        font-size: 30px;
+    }
+
+
+    .your_results .form .fields
+    {
+        width: 100%;
+    }
+
+
+    .your_results .results .hero
+    {
+        top: 140px;
+        left: 4px;
+
+        width: 88px;
+    }
+
+    .your_results .results .hero2
+    {
+        top: 135px;
+        right: -12px;
+
+        width: 132px;
+    }
+
+
+
+    /*--------------------
+        Content slider
+    --------------------*/
+    .content_slider .swiper-slide
+    {
+        padding: 24px 60px;
+    }
+
+    .content_slider .swiper-button-next .icon,
+    .content_slider .swiper-button-prev .icon
+    {
+        width: 15px;
+        height: 27px;
+    }
+
+
+    .content_slider .info
+    {
+        width: 240px;
+    }
+
+    .content_slider .title
+    {
+        font-size: 28px;
+    }
+
+
+    .content_slider .thumb
+    {
+        width: calc(100% - 240px);
+        height: 160px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Where buy
+    ---------------*/
+    .where_buy .online .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .where_buy .online .row > *
+    {
+        width: calc(33.333% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .where_buy .online .item
+    {
+        font-size: 17px;
+
+        padding: 20px 20px 16px;
+
+        border-radius: 28px;
+    }
+
+    .where_buy .online .thumb
+    {
+        height: 40px;
+    }
+
+
+
+    .where_buy .offline
+    {
+        padding: 28px;
+
+        border-radius: 28px;
+    }
+
+
+    .where_buy .offline .more_link
+    {
+        width: 100%;
+        margin-top: 4px;
+        margin-bottom: 20px;
+    }
+
+
+    .where_buy .offline .shops
+    {
+        width: 100%;
+        padding-top: 16px;
+
+        column-gap: 40px;
+        column-count: 4;
+    }
+
+
+    .where_buy .offline .img
+    {
+        position: relative;
+        bottom: 0;
+
+        width: 95%;
+        height: auto;
+        margin-top: 24px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        Text image
+    ----------------*/
+    .text_image .data
+    {
+        padding: 28px;
+
+        border-radius: 28px;
+    }
+
+
+    .text_image .image
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .text_image .image img
+    {
+        border-radius: 28px;
+    }
+
+
+    .text_image .text_block
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Messages
+    --------------*/
+    .messages .sub_title
+    {
+        font-size: 25px;
+
+        width: 560px;
+    }
+
+
+    .messages .desc
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+
+    .messages .thumb
+    {
+        border-radius: 28px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .thumb
+    {
+        border-radius: 28px;
+    }
+
+
+
+    /*-------------
+        Цinners
+    -------------*/
+    .winners .data
+    {
+        padding: 28px;
+
+        border-radius: 28px;
+    }
+
+
+    .winners .info
+    {
+        width: 100%;
+    }
+
+
+    .winners table th
+    {
+        font-size: 19px;
+    }
+
+
+    .winners .image
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    -------------------*/
+    .contacts_block .data
+    {
+        width: 100%;
+        padding: 28px;
+
+        border-radius: 28px;
+    }
+
+
+    .contacts_block .data .title
+    {
+        font-size: 30px;
+    }
+
+
+    .contacts_block .data .desc
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .contacts_block .data .email,
+    .contacts_block .data .site
+    {
+        font-size: 17px;
+
+        margin-top: 12px;
+    }
+
+
+
+    .contacts_block .feedback
+    {
+        width: 100%;
+        margin-top: 28px;
+        padding: 28px;
+
+        border-radius: 28px;
+    }
+
+
+    .contacts_block .feedback .title
+    {
+        font-size: 30px;
+    }
+
+
+    .contacts_block .feedback .form .agree
+    {
+        width: calc(100% - 252px);
+    }
+
+
+    .contacts_block .feedback .form .submit
+    {
+        width: 224px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 64px 0 24px;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 32px;
+    }
+
+
+    footer .logo img
+    {
+        width: 180px;
+    }
+
+
+    footer .site .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    footer .phone
+    {
+        font-size: 20px;
+    }
+
+
+    footer .email .icon,
+    footer .site .icon,
+    footer .phone .icon
+    {
+        margin-right: 8px;
+    }
+
+
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        justify-content: flex-end;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

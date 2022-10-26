@@ -1,0 +1,685 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-left: -20px;
+    }
+
+    .tabs button
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .file label
+    {
+        height: 56px;
+    }
+
+    .form .file label span
+    {
+        width: calc(100% - 30px);
+    }
+
+    .form .file .path
+    {
+        width: 100%;
+        margin-top: 4px;
+        padding-left: 30px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h3
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome .row
+    {
+        margin-bottom: -24px;
+    }
+
+    .welcome .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .welcome .block_title
+    {
+        font-size: 23px;
+    }
+
+
+    .welcome .thumb
+    {
+        width: 116px;
+        height: 116px;
+    }
+
+
+    .welcome .name
+    {
+        font-size: 17px;
+
+        width: calc(100% - 136px);
+        padding-top: 52px;
+    }
+
+
+    .welcome .number
+    {
+        font-size: 18px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*----------
+        Draw
+    ----------*/
+    .draw
+    {
+        margin-bottom: 40px;
+        padding-top: 84px;
+        padding-bottom: 52px;
+    }
+
+
+    .draw .image
+    {
+        width: 100%;
+    }
+
+
+    .draw .title
+    {
+        font-size: 32px;
+    }
+
+
+    .draw .item
+    {
+        padding: 12px 20px 12px 60px;
+    }
+
+    .draw .item + .item
+    {
+        margin-top: 24px;
+    }
+
+    .draw .item:nth-child(1):before
+    {
+        height: 104px;
+    }
+
+    .draw .item:nth-child(2):before
+    {
+        height: 72px;
+    }
+
+    .draw .item:nth-child(3):before
+    {
+        height: 68px;
+    }
+
+
+    .draw .item span
+    {
+        display: block;
+
+        margin-left: 0;
+        padding: 4px 8px 3px;
+
+        text-align: center;
+    }
+
+
+    .draw .number
+    {
+        left: 16px;
+
+        height: 52px;
+    }
+
+    .draw .number img
+    {
+        height: 52px;
+    }
+
+
+    .draw .link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .history .block_desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .awards .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .awards .item
+    {
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .awards .item .thumb
+    {
+        width: 124px;
+        height: auto;
+        margin: 0;
+    }
+
+    .awards .item .thumb + *
+    {
+        width: calc(100% - 144px);
+        margin-left: auto;
+
+        align-self: center;
+    }
+
+
+    .awards .item .year
+    {
+        font-size: 20px;
+
+        margin-bottom: 6px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .swiper
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+    .videos .swiper-button-next,
+    .videos .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Year info
+    ---------------*/
+    .year_info .year img
+    {
+        width: calc(100% + 128px);
+        max-width: calc(100% + 128px);
+        margin-right: -64px;
+        margin-left: -64px;
+    }
+
+
+
+    /*-------------------
+        First holiday
+    -------------------*/
+    .first_holiday .item
+    {
+        font-size: 14px;
+    }
+
+
+    .first_holiday .item .thumb
+    {
+        width: 120px;
+        padding-bottom: 120px;
+    }
+
+    .first_holiday .item .thumb + div
+    {
+        width: calc(100% - 140px);
+    }
+
+
+
+    /*------------
+        Prizes
+    ------------*/
+    .prizes
+    {
+        min-height: 484px;
+        margin-bottom: -72px;
+        padding-top: 80px;
+    }
+
+
+    .prizes .title
+    {
+        font-size: 20px;
+    }
+
+
+    .prizes .image
+    {
+        height: 180px;
+    }
+
+
+
+    /*---------
+        Try
+    ---------*/
+    .try .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .try .item .thumb
+    {
+        width: 116px;
+    }
+
+    .try .item .thumb + *
+    {
+        width: calc(100% - 136px);
+    }
+
+
+    .try .item .name
+    {
+        font-size: 19px;
+    }
+
+
+    .try .data
+    {
+        margin-top: 40px;
+    }
+
+
+    .try .form
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 40px 24px 48px;
+
+        border-radius: 0;
+    }
+
+
+    .try .form .title
+    {
+        font-size: 18px;
+    }
+
+    .try .form .title b
+    {
+        font-size: 24px;
+    }
+
+
+    .try .data .hero,
+    .try .data .hero2,
+    .try .data .hero3
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Recipes
+    -------------*/
+    .recipes .thumb
+    {
+        border-width: 15px;
+    }
+
+
+
+    /*------------
+        Master
+    ------------*/
+    .master .block_title
+    {
+        font-size: 26px;
+    }
+
+    .master .block_title br
+    {
+        display: none;
+    }
+
+
+    .master .row
+    {
+        margin-bottom: -12px;
+        margin-left: 0;
+    }
+
+    .master .row > *
+    {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+
+    .master .item .thumb
+    {
+        width: 84px;
+        height: 84px;
+    }
+
+    .master .item .thumb + *
+    {
+        width: calc(100% - 104px);
+    }
+
+
+
+    /*-----------------
+        Master form
+    -----------------*/
+    .master_form
+    {
+        min-height: 778px;
+        padding: 80px 0 108px;
+    }
+
+
+    .master_form .item b
+    {
+        font-size: 17px;
+    }
+
+
+    .master_form .item .thumb
+    {
+        height: 80px;
+    }
+
+
+    .master_form .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .master_form .form
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 28px 24px 48px;
+
+        border-radius: 0;
+    }
+
+
+
+    /*-------------
+        Members
+    -------------*/
+    .members .thumb
+    {
+        border-width: 15px;
+    }
+
+
+
+    /*----------
+        Game
+    ----------*/
+    .game .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .game .row
+    {
+        margin-bottom: -32px;
+    }
+
+    .game .row > *
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .game .thumb
+    {
+        width: 124px;
+        height: 124px;
+    }
+
+
+    .game .name
+    {
+        font-size: 15px;
+
+        width: calc(100% - 144px);
+        padding-top: 52px;
+    }
+
+
+    .game .number
+    {
+        font-size: 18px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*------------------
+        Your results
+    ------------------*/
+    .your_results
+    {
+        min-height: 888px;
+        padding: 70px 0;
+    }
+
+
+    .your_results .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .your_results .form
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 40px 24px 48px;
+
+        border-radius: 0;
+    }
+
+
+    .your_results .form .title
+    {
+        font-size: 18px;
+    }
+
+    .your_results .form .title b
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------------
+        Content slider
+    --------------------*/
+    .content_slider .swiper-slide
+    {
+        padding: 40px 24px;
+    }
+
+
+    .content_slider .title
+    {
+        font-size: 23px;
+    }
+
+    .content_slider .thumb
+    {
+        height: 140px;
+    }
+
+
+
+    /*---------------
+        Where buy
+    ---------------*/
+    .where_buy .online .row
+    {
+        margin-left: 0;
+    }
+
+    .where_buy .online .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .where_buy .offline .shops
+    {
+        column-gap: 24px;
+        column-count: 2;
+    }
+
+    .where_buy .offline .shops > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*--------------
+        Messages
+    --------------*/
+    .messages .sub_title
+    {
+        font-size: 20px;
+    }
+
+
+    .messages .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-------------
+        Winners
+    -------------*/
+    .winners table td.points
+    {
+        font-size: 18px;
+
+        width: 84px;
+        min-width: 84px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    -------------------*/
+    .contacts_block
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_block .feedback .form .agree
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contacts_block .feedback .form .submit
+    {
+        width: 100%;
+    }
+}

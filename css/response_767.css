@@ -1,0 +1,1308 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 30px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-left: -24px;
+    }
+
+    .tabs button
+    {
+        margin-left: 24px;
+    }
+
+    .tabs button:after
+    {
+        bottom: -6px;
+
+        height: 4px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-left: 20px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 17px;
+    }
+
+
+    .accordion_item .head .icon,
+    .accordion_item .head .icon svg
+    {
+        width: 12px;
+        height: 20px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 4px 20px 20px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        height: 72px;
+    }
+
+
+    header .logo
+    {
+        transform: scale(.60);
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        top: calc(100% - 8px);
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        padding: 24px;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+        text-align: center;
+
+        background: #ca1f26;
+    }
+
+    header .menu ~ .menu
+    {
+        top: calc(100% + 101px);
+
+        padding-top: 0;
+    }
+
+    header .menu.show
+    {
+        transform: translateX(0%);
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+
+    header .menu_item > a
+    {
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .file
+    {
+        margin-bottom: 20px;
+    }
+
+    .form .file label
+    {
+        height: 48px;
+    }
+
+    .form .file .icon
+    {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+
+    .form .input
+    {
+        height: 48px;
+        padding: 0 23px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        height: 48px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *,
+    .text_block .cols .col > *,
+    .text_block .message .text > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block h3
+    {
+        font-size: 23px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 32px 24px;
+
+        border-radius: 0;
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 24px;
+    }
+
+
+    .text_block .message
+    {
+        padding: 20px;
+
+        border-radius: 24px;
+    }
+
+    .text_block .message .icon
+    {
+        top: 15px;
+        left: 20px;
+    }
+
+    .text_block .message .title
+    {
+        font-size: 23px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        border-radius: 24px;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome
+    {
+        margin-bottom: 4px;
+    }
+
+
+    .welcome .block_title
+    {
+        font-size: 25px;
+    }
+
+
+    .welcome .row
+    {
+        margin-bottom: -28px;
+        margin-left: 0;
+    }
+
+    .welcome .row > *
+    {
+        width: 100%;
+        margin-bottom: 28px;
+        margin-left: 0;
+    }
+
+
+    .welcome .thumb
+    {
+        width: 108px;
+        height: 108px;
+    }
+
+
+    .welcome .name
+    {
+        width: calc(100% - 132px);
+        padding-top: 60px;
+    }
+
+    .welcome .name br
+    {
+        display: none;
+    }
+
+
+    .welcome .number
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*----------
+        Draw
+    ----------*/
+    .draw
+    {
+        margin-bottom: 40px;
+        padding-top: 84px;
+        padding-bottom: 52px;
+    }
+
+
+    .draw .image
+    {
+        width: 75%;
+        height: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+    }
+
+
+    .draw .data
+    {
+        width: 100%;
+    }
+
+
+    .draw .title
+    {
+        font-size: 40px;
+    }
+
+
+    .draw .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .draw .link a
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history
+    {
+        margin-bottom: 48px;
+        padding-top: 16px;
+    }
+
+
+    .history .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .history .block_desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------
+        Year info
+    ---------------*/
+    .year_info .year img
+    {
+        width: calc(100% + 96px);
+        max-width: calc(100% + 96px);
+        height: auto;
+        margin-right: -48px;
+        margin-left: -48px;
+    }
+
+
+    .year_info .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .year_info .desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .swiper
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .videos .swiper-button-next .icon,
+    .videos .swiper-button-prev .icon
+    {
+        width: 11px;
+        height: 21px;
+    }
+
+
+    .videos .video .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .videos .video .icon svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*-------------------
+        First holiday
+    -------------------*/
+    .first_holiday .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .first_holiday .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .first_holiday .item
+    {
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .first_holiday .item .thumb
+    {
+        width: 132px;
+        margin: 0;
+        padding-bottom: 132px;
+
+        border-radius: 16px;
+    }
+
+    .first_holiday .item .thumb + div
+    {
+        width: calc(100% - 156px);
+        margin-left: auto;
+
+        align-self: center;
+    }
+
+
+
+    /*------------
+        Prizes
+    ------------*/
+    .prizes
+    {
+        min-height: 532px;
+        margin-bottom: -80px;
+        padding-top: 92px;
+    }
+
+
+    .prizes .title
+    {
+        font-size: 22px;
+    }
+
+
+    .prizes .image
+    {
+        width: calc(100% + 48px);
+        height: 220px;
+        margin-top: 20px;
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+
+    /*---------
+        Try
+    ---------*/
+    .try
+    {
+        margin-bottom: 60px;
+        padding-top: 16px;
+    }
+
+
+    .try .block_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .try .cont > .row
+    {
+        margin-bottom: -28px;
+        margin-left: 0;
+    }
+
+    .try .cont > .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 28px;
+        margin-left: 0;
+    }
+
+
+    .try .item
+    {
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .try .item .thumb
+    {
+        width: 132px;
+        height: auto;
+        margin: 0;
+    }
+
+    .try .item .thumb + *
+    {
+        width: calc(100% - 156px);
+        margin-left: auto;
+
+        align-self: center;
+    }
+
+
+    .try .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .try .item .desc
+    {
+        font-size: 15px;
+
+        margin-top: 12px;
+    }
+
+
+    .try .data
+    {
+        margin-top: 40px;
+    }
+
+
+    .try .form
+    {
+        padding: 28px 32px 40px;
+
+        border-radius: 24px;
+    }
+
+
+    .try .form .title
+    {
+        font-size: 19px;
+    }
+
+    .try .form .title b
+    {
+        font-size: 27px;
+    }
+
+
+    .try .data .hero,
+    .try .data .hero2,
+    .try .data .hero3
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Master
+    ------------*/
+    .master
+    {
+        margin-bottom: 48px;
+        padding-top: 16px;
+    }
+
+
+    .master .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .master .block_desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+
+    .master .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .master .item
+    {
+        font-size: 16px;
+
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .master .item .thumb
+    {
+        width: 72px;
+        height: 72px;
+        margin: 0;
+        padding: 0;
+
+        border-radius: 20px;
+    }
+
+    .master .item .thumb + *
+    {
+        width: calc(100% - 88px);
+    }
+
+
+
+    /*-----------------
+        Master form
+    -----------------*/
+    .master_form .item
+    {
+        font-size: 15px;
+    }
+
+    .master_form .item b
+    {
+        font-size: 18px;
+    }
+
+
+    .master_form .item .thumb
+    {
+        height: 108px;
+    }
+
+    .master_form .item .thumb img
+    {
+        max-width: 96%;
+    }
+
+    .master_form .item .thumb img.absolute
+    {
+        max-width: 88%;
+    }
+
+
+    .master_form .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .master_form .form
+    {
+        padding: 28px 40px 40px;
+    }
+
+
+    .master_form .form .title
+    {
+        font-size: 17px;
+    }
+
+    .master_form .form .title b
+    {
+        font-size: 27px;
+    }
+
+
+
+    /*-------------
+        Members
+    -------------*/
+    .members
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .members .place
+    {
+        font-size: 17px;
+    }
+
+    .members .place .number
+    {
+        font-size: 39px;
+    }
+
+
+    .members .all_link a
+    {
+        font-size: 16px;
+
+        padding: 10px 31px;
+    }
+
+
+
+    /*----------
+        Game
+    ----------*/
+    .game
+    {
+        margin-bottom: 48px;
+        padding-top: 16px;
+    }
+
+
+    .game .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .game .row
+    {
+        margin-left: 0;
+    }
+
+    .game .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .game .name
+    {
+        padding-top: 64px;
+    }
+
+
+    .game .number
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*------------------
+        Your results
+    ------------------*/
+    .your_results
+    {
+        min-height: 928px;
+        padding: 80px 0;
+    }
+
+
+    .your_results .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .your_results .results .img
+    {
+        width: 100%;
+    }
+
+
+    .your_results .form
+    {
+        padding: 28px 32px 40px;
+
+        border-radius: 24px;
+    }
+
+
+    .your_results .form .title
+    {
+        font-size: 19px;
+    }
+
+    .your_results .form .title b
+    {
+        font-size: 27px;
+    }
+
+
+    .your_results .results .hero,
+    .your_results .results .hero2
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Content slider
+    --------------------*/
+    .content_slider .swiper-slide
+    {
+        padding: 40px;
+    }
+
+    .content_slider .swiper-button-next,
+    .content_slider .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .content_slider .info
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .content_slider .title
+    {
+        font-size: 25px;
+    }
+
+    .content_slider .thumb
+    {
+        width: 100%;
+        height: 180px;
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Where buy
+    ---------------*/
+    .where_buy
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .where_buy .online .row > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .where_buy .online .item
+    {
+        font-size: 16px;
+
+        padding: 20px;
+
+        border-radius: 24px;
+    }
+
+
+    .where_buy .offline
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 32px 24px;
+
+        border-radius: 0;
+    }
+
+
+    .where_buy .offline .shops
+    {
+        padding-top: 20px;
+
+        column-gap: 32px;
+        column-count: 3;
+    }
+
+    .where_buy .offline .shops a
+    {
+        padding-left: 18px;
+    }
+
+
+    .where_buy .offline .img
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Text image
+    ----------------*/
+    .text_image
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .text_image .data
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 32px 24px;
+    }
+
+
+
+    /*--------------
+        Messages
+    --------------*/
+    .messages
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .messages .sub_title
+    {
+        font-size: 22px;
+
+        width: 100%;
+    }
+
+
+    .messages .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .messages .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .messages .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .messages .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .messages .row > *
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .messages .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .messages .thumb
+    {
+        border-radius: 24px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .photo_gallery .swiper-slide
+    {
+        width: 240px;
+    }
+
+
+    .photo_gallery .thumb
+    {
+        border-radius: 24px;
+    }
+
+
+
+    /*-------------
+        Winners
+    -------------*/
+    .winners .data
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 32px 24px;
+    }
+
+
+    .winners table th:first-child,
+    .winners table td:first-child
+    {
+        display: none;
+    }
+
+
+    .winners table th
+    {
+        font-size: 16px;
+    }
+
+
+    .winners table td
+    {
+        font-size: 16px;
+        line-height: 120%;
+
+        padding: 7px 20px 6px;
+    }
+
+    .winners table td.place
+    {
+        font-size: 17px;
+
+        width: 112px;
+        min-width: 112px;
+    }
+
+    .winners table td.points
+    {
+        font-size: 20px;
+
+        width: 112px;
+        min-width: 112px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    -------------------*/
+    .contacts_block
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .contacts_block .data
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 32px 24px;
+    }
+
+
+    .contacts_block .data .title
+    {
+        font-size: 28px;
+    }
+
+    .contacts_block .data .desc
+    {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+
+    .contacts_block .data .phone
+    {
+        font-size: 20px;
+    }
+
+    .contacts_block .data .email,
+    .contacts_block .data .site
+    {
+        font-size: 16px;
+    }
+
+
+
+    .contacts_block .feedback
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 32px 24px;
+    }
+
+
+    .contacts_block .feedback .title
+    {
+        font-size: 28px;
+    }
+
+    .contacts_block .feedback .desc
+    {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+
+    .contacts_block .feedback .form .agree
+    {
+        width: calc(100% - 200px);
+    }
+
+    .contacts_block .feedback .form .submit
+    {
+        width: 180px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 88px;
+    }
+
+
+
+    footer .logo
+    {
+        width: 100%;
+    }
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    footer .email,
+    footer .site,
+    footer .phone
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer .email a,
+    footer .site a,
+    footer .phone a
+    {
+        height: auto;
+
+        justify-content: center;
+    }
+
+
+
+    footer .copyright
+    {
+        width: 100%;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+
+
+    footer .privacy_policy_link,
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

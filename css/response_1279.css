@@ -1,0 +1,1358 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        height: 16px;
+    }
+
+    .swiper-pagination-bullet
+    {
+        width: 16px;
+        height: 16px;
+
+        border-width: 3px;
+    }
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 10px !important;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -12px;
+    }
+
+    .swiper-button-next
+    {
+        right: -12px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-left: -24px;
+    }
+
+
+    .tabs button
+    {
+        font-size: 17px;
+
+        margin-bottom: 20px;
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-left: 28px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 19px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 4px 100px 24px 28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        margin-bottom: 20px;
+    }
+
+
+    header .cont
+    {
+        height: 100px;
+    }
+
+
+    header .logo
+    {
+        transform: scale(.8);
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+
+    .form .input
+    {
+        height: 52px;
+        padding: 0 25px;
+    }
+
+
+    .form .file label
+    {
+        font-size: 15px;
+
+        height: 52px;
+    }
+
+    .form .file .path
+    {
+        width: 140px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 18px;
+
+        height: 52px;
+    }
+
+    .form .submit_btn .icon
+    {
+        right: 20px;
+
+        height: 14px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+    }
+
+
+    .text_block > *,
+    .text_block .cols .col > *,
+    .text_block .message .text > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .text_block h3
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .text_block .bg
+    {
+        padding: 40px 32px;
+    }
+
+
+    .text_block ol li:before
+    {
+        font-size: 18px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 6px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .text_block ul li + li,
+    .text_block ol li + li
+    {
+        margin-top: 12px;
+    }
+
+
+    .text_block .message
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 35px;
+
+        border-radius: 30px;
+    }
+
+    .text_block .message .icon
+    {
+        top: 34px;
+        left: 35px;
+    }
+
+    .text_block .message .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 28px;
+        padding-left: 48px;
+    }
+
+    .text_block .message .text
+    {
+        font-size: 16px;
+        line-height: 145%;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        border-radius: 30px;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome
+    {
+        margin-bottom: 40px;
+        padding-top: 24px;
+    }
+
+
+    .welcome .block_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .welcome .row
+    {
+        margin-left: -24px;
+    }
+
+    .welcome .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .welcome .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .welcome .name
+    {
+        font-size: 20px;
+
+        min-height: 52px;
+        padding-left: 68px;
+    }
+
+
+    .welcome .number
+    {
+        font-size: 22px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*----------
+        Draw
+    ----------*/
+    .draw
+    {
+        padding-top: 60px;
+    }
+
+
+    .draw .image
+    {
+        width: calc(100% - 392px);
+        height: 672px;
+        margin-right: -40px;
+        margin-left: -76px;
+    }
+
+
+    .draw .data
+    {
+        width: 508px;
+        margin-right: 0;
+    }
+
+
+    .draw .title
+    {
+        font-size: 52px;
+    }
+
+
+    .draw .desc
+    {
+        font-size: 20px;
+
+        margin-top: 16px;
+        padding-right: 132px;
+    }
+
+    .draw .desc img
+    {
+        width: 108px;
+        height: 108px;
+    }
+
+    .draw .desc > * + *
+    {
+        margin-top: 16px;
+    }
+
+    .draw .desc small
+    {
+        font-size: inherit;
+    }
+
+
+    .draw .items
+    {
+        margin-top: 40px;
+    }
+
+
+    .draw .item
+    {
+        font-size: 17px;
+
+        padding: 16px 44px 16px 88px;
+    }
+
+    .draw .item + .item
+    {
+        margin-top: 36px;
+    }
+
+    .draw .item:nth-child(1):before
+    {
+        height: 96px;
+    }
+
+    .draw .item:nth-child(2):before
+    {
+        height: 72px;
+    }
+
+    .draw .item:nth-child(3):before
+    {
+        height: 68px;
+    }
+
+
+    .draw .link a
+    {
+        font-size: 18px;
+
+        padding: 12px 26px 11px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history
+    {
+        padding-top: 24px;
+    }
+
+
+    .history .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .history .block_desc
+    {
+        font-size: 19px;
+
+        width: 656px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards .row > *
+    {
+        width: calc(20% - 24px);
+    }
+
+
+    .awards .item
+    {
+        font-size: 15px;
+    }
+
+    .awards .item .thumb
+    {
+        height: 112px;
+        margin-bottom: 12px;
+    }
+
+    .awards .item .year
+    {
+        font-size: 22px;
+
+        margin-bottom: 8px;
+    }
+
+
+
+    /*---------------
+        Year info
+    ---------------*/
+    .year_info .year img
+    {
+        height: 96px;
+    }
+
+
+    .year_info .title
+    {
+        font-size: 24px;
+
+        margin-top: 12px;
+        margin-bottom: 40px;
+    }
+
+
+    .year_info .desc
+    {
+        font-size: 18px;
+
+        width: 752px;
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-------------------
+        First holiday
+    -------------------*/
+    .first_holiday .row
+    {
+        margin-left: -24px;
+    }
+
+    .first_holiday .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .first_holiday .item
+    {
+        font-size: 16px;
+    }
+
+    .first_holiday .item .thumb
+    {
+        margin-bottom: 20px;
+
+        border-radius: 28px;
+    }
+
+
+
+    /*------------
+        Prizes
+    ------------*/
+    .prizes
+    {
+        min-height: 440px;
+        margin-bottom: -52px;
+        padding: 20px 0 60px;
+    }
+
+
+    .prizes .image
+    {
+        width: calc(100% - 308px);
+        height: 360px;
+        margin-left: -40px;
+    }
+
+
+    .prizes .title
+    {
+        font-size: 26px;
+
+        width: 348px;
+        margin-top: 8px;
+    }
+
+
+    .prizes .hero,
+    .prizes .hero2
+    {
+        display: none;
+    }
+
+
+
+    /*---------
+        Try
+    ---------*/
+    .try
+    {
+        padding-top: 24px;
+    }
+
+
+    .try .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .try .item .thumb
+    {
+        height: 212px;
+        margin-bottom: 16px;
+    }
+
+
+    .try .item .name
+    {
+        font-size: 25px;
+    }
+
+
+    .try .item .desc
+    {
+        font-size: 17px;
+
+        margin-top: 16px;
+    }
+
+
+    .try .form
+    {
+        padding: 32px 44px;
+
+        border-radius: 88px;
+    }
+
+
+    .try .form .title
+    {
+        font-size: 21px;
+    }
+
+    .try .form .title b
+    {
+        font-size: 32px;
+    }
+
+
+    .try .form .fields
+    {
+        width: calc(100% - 240px);
+    }
+
+
+    .try .data .hero
+    {
+        top: -100px;
+        left: 80px;
+    }
+
+    .try .data .hero2
+    {
+        top: -84px;
+    }
+
+    .try .data .hero3
+    {
+        top: -88px;
+        right: 88px;
+    }
+
+
+
+    /*-------------
+        Recipes
+    -------------*/
+    .recipes
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .recipes .thumb
+    {
+        border-width: 12px;
+    }
+
+
+
+    /*------------
+        Master
+    ------------*/
+    .master
+    {
+        padding-top: 24px;
+    }
+
+
+    .master .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .master .block_desc
+    {
+        font-size: 19px;
+
+        width: 656px;
+        margin-bottom: 40px;
+    }
+
+
+    .master .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .master .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .master .item
+    {
+        font-size: 20px;
+    }
+
+    .master .item .thumb
+    {
+        margin-bottom: 20px;
+
+        border-radius: 36px;
+    }
+
+
+
+    /*-----------------
+        Master form
+    -----------------*/
+    .master_form
+    {
+        min-height: 780px;
+        margin-bottom: 20px;
+        padding: 100px 0 122px;
+    }
+
+
+    .master_form .item
+    {
+        font-size: 17px;
+    }
+
+    .master_form .item b
+    {
+        font-size: 21px;
+    }
+
+
+    .master_form .item .thumb
+    {
+        height: 200px;
+        margin-top: 8px;
+    }
+
+    .master_form .item .thumb img
+    {
+        max-width: 81%;
+    }
+
+    .master_form .item .thumb img.absolute
+    {
+        max-width: 72%;
+    }
+
+
+    .master_form .data
+    {
+        margin-top: 40px;
+    }
+
+
+    .master_form .block_title
+    {
+        font-size: 30px;
+    }
+
+
+    .master_form .form
+    {
+        padding: 32px 64px;
+
+        border-radius: 88px;
+    }
+
+
+    .master_form .form .title
+    {
+        font-size: 19px;
+    }
+
+    .master_form .form .title b
+    {
+        font-size: 32px;
+    }
+
+
+    .master_form .form .fields
+    {
+        width: calc(100% - 200px);
+    }
+
+
+
+    /*-------------
+        Members
+    -------------*/
+    .members .place
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+    }
+
+    .members .place .number
+    {
+        font-size: 44px;
+
+        margin-bottom: -6px;
+    }
+
+
+    .members .thumb
+    {
+        border-width: 12px;
+    }
+
+
+    .members .all_link a
+    {
+        font-size: 18px;
+
+        padding: 11px 39px;
+    }
+
+
+
+    /*----------
+        Game
+    ----------*/
+    .game
+    {
+        margin-bottom: 60px;
+        padding-top: 24px;
+    }
+
+
+    .game .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .game .row
+    {
+        margin-left: -24px;
+    }
+
+    .game .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .game .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .game .name
+    {
+        font-size: 16px;
+
+        min-height: 52px;
+        padding-left: 68px;
+    }
+
+
+    .game .number
+    {
+        font-size: 22px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*------------------
+        Your results
+    ------------------*/
+    .your_results
+    {
+        min-height: 964px;
+        margin-bottom: 24px;
+        padding: 92px 0 100px;
+    }
+
+
+    .your_results .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .your_results .results .img
+    {
+        width: 680px;
+    }
+
+
+    .your_results .form
+    {
+        padding: 32px 64px;
+
+        border-radius: 88px;
+    }
+
+
+    .your_results .form .title
+    {
+        font-size: 21px;
+    }
+
+    .your_results .form .title b
+    {
+        font-size: 32px;
+    }
+
+
+    .your_results .form .fields
+    {
+        width: calc(100% - 220px);
+    }
+
+
+    .your_results .results .hero2
+    {
+        top: 120px;
+        right: 20px;
+
+        width: 170px;
+        height: auto;
+    }
+
+    .your_results .results .hero
+    {
+        top: 164px;
+        left: 28px;
+
+        width: 112px;
+        height: auto;
+    }
+
+
+
+    /*--------------------
+        Content slider
+    --------------------*/
+    .content_slider
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .content_slider .swiper-slide
+    {
+        padding: 52px 76px;
+    }
+
+
+    .content_slider .info
+    {
+        width: 308px;
+    }
+
+    .content_slider .title
+    {
+        font-size: 36px;
+    }
+
+
+    .content_slider .thumb
+    {
+        width: calc(100% - 292px);
+        height: 268px;
+        margin-left: -16px;
+    }
+
+
+
+    /*---------------
+        Where buy
+    ---------------*/
+    .where_buy
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .where_buy .online .row
+    {
+        margin-left: -24px;
+    }
+
+    .where_buy .online .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .where_buy .online .item
+    {
+        font-size: 18px;
+
+        padding: 24px 24px 16px;
+
+        border-radius: 30px;
+    }
+
+    .where_buy .online .thumb
+    {
+        height: 48px;
+    }
+
+
+
+    .where_buy .offline
+    {
+        min-height: 340px;
+        margin-top: 28px;
+        padding: 32px;
+
+        border-radius: 30px;
+    }
+
+
+    .where_buy .offline .more_link
+    {
+        margin-bottom: 20px;
+    }
+
+    .where_buy .offline .more_link .icon
+    {
+        width: 32px;
+        height: 10px;
+        margin-left: 8px;
+    }
+
+
+    .where_buy .offline .shops
+    {
+        font-size: 16px;
+
+        width: 448px;
+        padding-top: 40px;
+
+        column-gap: 40px;
+    }
+
+    .where_buy .offline .shops > * + *
+    {
+        margin-top: 12px;
+    }
+
+    .where_buy .offline .shops a:before
+    {
+        top: 5px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .where_buy .offline .img
+    {
+        bottom: 24px;
+
+        height: 232px;
+    }
+
+
+
+    /*----------------
+        Text image
+    ----------------*/
+    .text_image .data
+    {
+        padding: 32px;
+
+        border-radius: 30px;
+    }
+
+
+    .text_image .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .text_image .image img
+    {
+        border-radius: 30px;
+    }
+
+
+    .text_image .text_block
+    {
+        width: calc(50% - 32px);
+    }
+
+
+
+    /*--------------
+        Messages
+    --------------*/
+    .messages .sub_title
+    {
+        font-size: 28px;
+
+        width: 620px;
+        margin-bottom: 20px;
+    }
+
+
+    .messages .desc
+    {
+        font-size: 20px;
+
+        width: 812px;
+    }
+
+
+    .messages .thumb
+    {
+        border-radius: 30px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .thumb
+    {
+        border-radius: 30px;
+    }
+
+
+
+    /*-------------
+        Цinners
+    -------------*/
+    .winners .data
+    {
+        padding: 32px;
+
+        border-radius: 30px;
+    }
+
+
+    .winners .info
+    {
+        width: 592px;
+    }
+
+
+    .winners table th
+    {
+        font-size: 20px;
+    }
+
+
+    .winners table td.place
+    {
+        font-size: 19px;
+
+        width: 132px;
+        min-width: 132px;
+    }
+
+    .winners table td.points
+    {
+        font-size: 23px;
+
+        width: 132px;
+        min-width: 132px;
+    }
+
+
+    .winners .image
+    {
+        width: calc(100% - 628px);
+    }
+
+    .winners .image img.confetti
+    {
+        top: -24px;
+        left: -24px;
+
+        width: calc(100% + 48px);
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    -------------------*/
+    .contacts_block
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .contacts_block .data
+    {
+        padding: 32px;
+
+        border-radius: 30px;
+    }
+
+
+    .contacts_block .data .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_block .data .desc
+    {
+        font-size: 17px;
+        line-height: 145%;
+
+        margin-bottom: 100px;
+    }
+
+
+    .contacts_block .data .phone
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_block .data .email
+    {
+        font-size: 17px;
+
+        margin-top: 20px;
+    }
+
+
+    .contacts_block .data .site
+    {
+        font-size: 18px;
+
+        margin-top: 20px;
+    }
+
+
+
+    .contacts_block .feedback
+    {
+        padding: 32px;
+
+        border-radius: 30px;
+    }
+
+
+    .contacts_block .feedback .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_block .feedback .desc
+    {
+        font-size: 17px;
+        line-height: 145%;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_block .feedback .form .columns .or
+    {
+        font-size: 17px;
+    }
+
+
+    .contacts_block .feedback .form .agree
+    {
+        width: calc(100% - 204px);
+    }
+
+
+    .contacts_block .feedback .form .submit
+    {
+        width: 180px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 80px 0 28px;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 36px;
+    }
+
+
+    footer .site .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    footer .phone
+    {
+        font-size: 22px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

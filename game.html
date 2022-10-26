@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#CA1F26">
+		<meta name="theme-color" content="#CA1F26">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<div class="menu row">
+							<div class="menu_item">
+								<a href="/">О Pepero</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Где купить</a>
+							</div>
+						</div>
+
+						<div class="menu row">
+							<div class="menu_item">
+								<a href="/">Розыгрыш</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Вопрос-ответ</a>
+							</div>
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="game">
+					<div class="cont">
+						<div class="block_title">Давай поиграем!</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/game_thumb1.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="name green">
+									<div class="number"></div>
+									<div>Приобретите потрясающую упаковку PEPERO</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/game_thumb2.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="name red">
+									<div class="number"></div>
+									<div>Возьмите палочку PEPERO и поместите один край в свой рот, а другой край в рот другого игрока</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/game_thumb3.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="name brown">
+									<div class="number"></div>
+									<div>Начинайте «стачивать» зубами соломку с двух сторон. Все ближе и ближе подбираясь к противнику.</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/game_thumb4.svg" alt="" class="lazyload">
+								</div>
+
+								<div class="name yellow">
+									<div class="number"></div>
+									<div>Сверьте результаты с рисунком ниже.<br> Выигрывает тот, у кого остается наименьшая часть соломки.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="your_results">
+					<div class="cont">
+						<div class="block_title">Проверь свои результаты:</div>
+
+						<div class="results">
+							<img data-src="images/tmp/results_img.svg" alt="" class="img lazyload">
+
+							<img data-src="images/results_hero.svg" alt="" class="hero lazyload">
+							<img data-src="images/results_hero2.svg" alt="" class="hero2 lazyload">
+						</div>
+
+						<div class="data">
+							<form action="" class="form">
+								<div class="title"><b>Поделись</b><br> результатом</div>
+
+								<div class="fields">
+									<div class="columns row">
+										<div class="line width1of3">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Имя">
+											</div>
+										</div>
+
+										<div class="line width2of3">
+											<div class="field">
+												<input type="url" name="" value="" class="input" placeholder="Ссылка на вашу соцсеть">
+											</div>
+										</div>
+
+										<div class="file width2of3">
+											<div class="field">
+												<input type="file" name="file" id="file">
+												<label for="file">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+													<span>Прикрепить файл</span>
+													<div class="path">Файл не загружен</div>
+												</label>
+											</div>
+										</div>
+
+										<div class="submit width1of3">
+											<button type="submit" class="submit_btn">
+												<span>Отправить</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+											</button>
+
+											<div class="agree">
+												<a href="/" target="_blank">Политика конфендициальности</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="members">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Топ Участников</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb green">
+											<img data-src="images/tmp/members_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb red">
+											<img data-src="images/tmp/members_thumb2.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb brown">
+											<img data-src="images/tmp/members_thumb3.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb yellow">
+											<img data-src="images/tmp/members_thumb4.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb green">
+											<img data-src="images/tmp/members_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb red">
+											<img data-src="images/tmp/members_thumb2.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb brown">
+											<img data-src="images/tmp/members_thumb3.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="place">
+											<div class="number"></div>
+											<div>место</div>
+										</div>
+
+										<div class="thumb yellow">
+											<img data-src="images/tmp/members_thumb4.jpg" alt="" class="swiper-lazy">
+										</div>
+
+										<div class="name">Пантелеймон<br> Христорождественский</div>
+
+										<div class="instagram">@panteleimon</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+							</div>
+						</div>
+
+						<div class="all_link">
+							<a href="/">Посмотреть всех участников</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="prizes">
+					<div class="cont row">
+						<div class="image animate fadeInUp">
+							<img data-src="images/prizes_img.png" alt="" class="lazyload">
+						</div>
+
+						<div class="title">
+							Выкладывай фотографии<br> в <u>Вконтакте</u> под хэштегом<br> <span>#PEPEROSWEETBOX </span><br> и выигрывай призы!
+
+							<img data-src="images/prizes_stars.png" alt="" class="stars lazyload">
+						</div>
+					</div>
+
+					<img data-src="images/prizes_hero.svg" alt="" class="hero lazyload">
+					<img data-src="images/prizes_hero2.svg" alt="" class="hero2 lazyload">
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/logo2.svg" alt="">
+					</div>
+
+					<div class="email">
+						<a href="mailto:pepero@pepero.ru">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							<span>pepero@pepero.ru</span>
+						</a>
+					</div>
+
+					<div class="site">
+						<a href="/">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_chrome"></use></svg>
+							<span>pepero.ru</span>
+						</a>
+					</div>
+
+					<div class="phone">
+						<a href="tel:88008808888">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							<span>8 800 880 8888</span>
+						</a>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="copyright">
+						<div>&copy; 2022 ООО ЛОТТЕ КФ Рус</div>
+						<div>Все права защищены</div>
+					</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфиденцальности</a>
+					</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">
+							Разработка сайта - <span>Точка Ру</span>
+						</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="sticks left">
+				<img data-src="images/ic_sticks1.svg" alt="" class="lazyload item item1 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks2.svg" alt="" class="lazyload item item2 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks3.svg" alt="" class="lazyload item item3 rellax" data-rellax-speed="1">
+				<img data-src="images/ic_sticks4.svg" alt="" class="lazyload item item4 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks5.svg" alt="" class="lazyload item item5 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks6.svg" alt="" class="lazyload item item6 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks7.svg" alt="" class="lazyload item item7 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks8.svg" alt="" class="lazyload item item8 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks9.svg" alt="" class="lazyload item item9 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks10.svg" alt="" class="lazyload item item10 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks11.svg" alt="" class="lazyload item item11 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks12.svg" alt="" class="lazyload item item12 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks13.svg" alt="" class="lazyload item item13 rellax" data-rellax-speed="1">
+				<img data-src="images/ic_sticks14.svg" alt="" class="lazyload item item14 rellax" data-rellax-speed="1.5">
+				<img data-src="images/ic_sticks15.svg" alt="" class="lazyload item item15 rellax" data-rellax-speed="3.5">
+				<img data-src="images/ic_sticks16.svg" alt="" class="lazyload item item16 rellax" data-rellax-speed="3">
+			</div>
+
+
+			<div class="sticks right">
+				<img data-src="images/ic_sticks1.svg" alt="" class="lazyload item item1 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks2.svg" alt="" class="lazyload item item2 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks3.svg" alt="" class="lazyload item item3 rellax" data-rellax-speed="1">
+				<img data-src="images/ic_sticks4.svg" alt="" class="lazyload item item4 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks5.svg" alt="" class="lazyload item item5 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks6.svg" alt="" class="lazyload item item6 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks7.svg" alt="" class="lazyload item item7 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks8.svg" alt="" class="lazyload item item8 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks9.svg" alt="" class="lazyload item item9 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks10.svg" alt="" class="lazyload item item10 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks11.svg" alt="" class="lazyload item item11 rellax" data-rellax-speed="2">
+				<img data-src="images/ic_sticks12.svg" alt="" class="lazyload item item12 rellax" data-rellax-speed="3">
+				<img data-src="images/ic_sticks13.svg" alt="" class="lazyload item item13 rellax" data-rellax-speed="1">
+				<img data-src="images/ic_sticks14.svg" alt="" class="lazyload item item14 rellax" data-rellax-speed="1.5">
+				<img data-src="images/ic_sticks15.svg" alt="" class="lazyload item item15 rellax" data-rellax-speed="3.5">
+				<img data-src="images/ic_sticks16.svg" alt="" class="lazyload item item16 rellax" data-rellax-speed="3">
+			</div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/rellax.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
