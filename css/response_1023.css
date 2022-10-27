@@ -537,52 +537,6 @@
     }
 
 
-    .try .form
-    {
-        padding: 32px 40px 40px;
-
-        border-radius: 28px;
-    }
-
-
-    .try .form .title
-    {
-        font-size: 20px;
-
-        width: 100%;
-        margin-bottom: 20px;
-
-        text-align: center;
-    }
-
-    .try .form .title br
-    {
-        display: none;
-    }
-
-    .try .form .title b
-    {
-        font-size: 30px;
-    }
-
-
-    .try .form .fields
-    {
-        width: 100%;
-    }
-
-
-    .try .data .hero
-    {
-        left: 40px;
-    }
-
-    .try .data .hero3
-    {
-        right: 40px;
-    }
-
-
 
     /*-------------
         Recipes
@@ -611,12 +565,12 @@
     }
 
 
-    .master .item
+    .master .row .item
     {
         font-size: 18px;
     }
 
-    .master .item .thumb
+    .master .row .item .thumb
     {
         margin-bottom: 16px;
 
@@ -628,19 +582,12 @@
     /*-----------------
         Master form
     -----------------*/
-    .master_form
-    {
-        min-height: 780px;
-        padding: 92px 0 122px;
-    }
-
-
-    .master_form .item
+    .master_form .items .item
     {
         font-size: 16px;
     }
 
-    .master_form .item b
+    .master_form .items .item b
     {
         font-size: 20px;
 
@@ -648,17 +595,17 @@
     }
 
 
-    .master_form .item .thumb
+    .master_form .items .item .thumb
     {
         height: 172px;
     }
 
-    .master_form .item .thumb img
+    .master_form .items .item .thumb img
     {
         max-width: 92%;
     }
 
-    .master_form .item .thumb img.absolute
+    .master_form .items .item .thumb img.absolute
     {
         max-width: 84%;
     }
@@ -669,41 +616,6 @@
         font-size: 28px;
 
         margin-bottom: 28px;
-    }
-
-
-    .master_form .form
-    {
-        padding: 32px 40px 40px;
-
-        border-radius: 24px;
-    }
-
-
-    .master_form .form .title
-    {
-        font-size: 18px;
-
-        width: 100%;
-        margin-bottom: 20px;
-
-        text-align: center;
-    }
-
-    .master_form .form .title br
-    {
-        display: none;
-    }
-
-    .master_form .form .title b
-    {
-        font-size: 30px;
-    }
-
-
-    .master_form .form .fields
-    {
-        width: 100%;
     }
 
 
@@ -773,14 +685,6 @@
     /*------------------
         Your results
     ------------------*/
-    .your_results
-    {
-        min-height: 928px;
-        margin-bottom: 16px;
-        padding: 90px 0;
-    }
-
-
     .your_results .block_title
     {
         font-size: 32px;
@@ -792,41 +696,6 @@
     .your_results .results .img
     {
         width: 560px;
-    }
-
-
-    .your_results .form
-    {
-        padding: 32px 40px 40px;
-
-        border-radius: 28px;
-    }
-
-
-    .your_results .form .title
-    {
-        font-size: 20px;
-
-        width: 100%;
-        margin-bottom: 20px;
-
-        text-align: center;
-    }
-
-    .your_results .form .title br
-    {
-        display: none;
-    }
-
-    .your_results .form .title b
-    {
-        font-size: 30px;
-    }
-
-
-    .your_results .form .fields
-    {
-        width: 100%;
     }
 
 
@@ -844,6 +713,125 @@
         right: -12px;
 
         width: 132px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .form
+    {
+        padding: 32px 40px 40px;
+
+        border-radius: 28px;
+    }
+
+
+    .order_form .form .col_left
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .order_form .form .title
+    {
+        font-size: 20px;
+
+        width: 100%;
+        margin-bottom: 16px;
+
+        text-align: center;
+    }
+
+    .order_form .form .title br
+    {
+        display: none;
+    }
+
+    .order_form .form .title b
+    {
+        font-size: 30px;
+    }
+
+
+    .order_form .form .desc
+    {
+        font-size: 16px;
+
+        margin-top: 0;
+
+        text-align: center;
+    }
+
+
+    .order_form .form .fields
+    {
+        width: 100%;
+    }
+
+
+    .order_form .form .img
+    {
+        display: none;
+    }
+
+
+    .order_form .hero
+    {
+        left: 40px;
+    }
+
+    .order_form .hero3
+    {
+        right: 40px;
+    }
+
+
+
+    .order_form .participants .item
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .order_form .participants .item + .item
+    {
+        margin-top: 2px;
+    }
+
+    .order_form .participants .item > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+    .order_form .participants .item .number
+    {
+        font-size: 16px;
+        line-height: 19px;
+
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .order_form .participants .item .date
+    {
+        width: 124px;
+        min-width: 124px;
+    }
+
+    .order_form .participants .item .type
+    {
+        width: 128px;
+        min-width: 128px;
+    }
+
+    .order_form .participants .item .photos
+    {
+        width: 140px;
+        min-width: 140px;
     }
 
 
@@ -1134,6 +1122,13 @@
     footer .logo img
     {
         width: 180px;
+    }
+
+
+    footer .links
+    {
+        font-size: 18px;
+        line-height: 58px;
     }
 
 

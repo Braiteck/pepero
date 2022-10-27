@@ -162,17 +162,13 @@
     /*------------------
         Form elements
     ------------------*/
+    .form .columns > *,
     .form .columns > *.width1of3,
     .form .columns > *.width2of3
     {
         width: calc(100% - var(--form_columns_offset));
     }
 
-
-    .form .file
-    {
-        margin-bottom: 20px;
-    }
 
     .form .file label
     {
@@ -191,6 +187,12 @@
     {
         height: 48px;
         padding: 0 23px;
+    }
+
+
+    .form .submit
+    {
+        margin-top: 20px;
     }
 
 
@@ -622,36 +624,9 @@
     }
 
 
-    .try .data
+    .try .order_form
     {
         margin-top: 40px;
-    }
-
-
-    .try .form
-    {
-        padding: 28px 32px 40px;
-
-        border-radius: 24px;
-    }
-
-
-    .try .form .title
-    {
-        font-size: 19px;
-    }
-
-    .try .form .title b
-    {
-        font-size: 27px;
-    }
-
-
-    .try .data .hero,
-    .try .data .hero2,
-    .try .data .hero3
-    {
-        display: none;
     }
 
 
@@ -689,7 +664,7 @@
     }
 
 
-    .master .item
+    .master .row .item
     {
         font-size: 16px;
 
@@ -703,7 +678,7 @@
         flex-wrap: wrap;
     }
 
-    .master .item .thumb
+    .master .row .item .thumb
     {
         width: 72px;
         height: 72px;
@@ -713,7 +688,7 @@
         border-radius: 20px;
     }
 
-    .master .item .thumb + *
+    .master .row .item .thumb + *
     {
         width: calc(100% - 88px);
     }
@@ -723,28 +698,28 @@
     /*-----------------
         Master form
     -----------------*/
-    .master_form .item
+    .master_form .items .item
     {
         font-size: 15px;
     }
 
-    .master_form .item b
+    .master_form .items .item b
     {
         font-size: 18px;
     }
 
 
-    .master_form .item .thumb
+    .master_form .items .item .thumb
     {
         height: 108px;
     }
 
-    .master_form .item .thumb img
+    .master_form .items .item .thumb img
     {
         max-width: 96%;
     }
 
-    .master_form .item .thumb img.absolute
+    .master_form .items .item .thumb img.absolute
     {
         max-width: 88%;
     }
@@ -755,23 +730,6 @@
         font-size: 26px;
 
         margin-bottom: 24px;
-    }
-
-
-    .master_form .form
-    {
-        padding: 28px 40px 40px;
-    }
-
-
-    .master_form .form .title
-    {
-        font-size: 17px;
-    }
-
-    .master_form .form .title b
-    {
-        font-size: 27px;
     }
 
 
@@ -852,13 +810,6 @@
     /*------------------
         Your results
     ------------------*/
-    .your_results
-    {
-        min-height: 928px;
-        padding: 80px 0;
-    }
-
-
     .your_results .block_title
     {
         font-size: 28px;
@@ -873,7 +824,24 @@
     }
 
 
-    .your_results .form
+    .your_results .results .hero,
+    .your_results .results .hero2
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form.margin_b
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .order_form .form
     {
         padding: 28px 32px 40px;
 
@@ -881,21 +849,48 @@
     }
 
 
-    .your_results .form .title
+    .order_form .form .title
     {
         font-size: 19px;
     }
 
-    .your_results .form .title b
+    .order_form .form .title b
     {
         font-size: 27px;
     }
 
 
-    .your_results .results .hero,
-    .your_results .results .hero2
+    .order_form .hero,
+    .order_form .hero2,
+    .order_form .hero3
     {
         display: none;
+    }
+
+
+    .order_form .all_btn
+    {
+        margin-top: 32px;
+    }
+
+    .order_form .all_btn .btn
+    {
+        font-size: 16px;
+
+        padding: 10px 40px 11px;
+    }
+
+
+    .order_form .participants .list
+    {
+        overflow: auto;
+
+        width: 100%;
+    }
+
+    .order_form .participants .item
+    {
+        width: 768px;
     }
 
 
@@ -1262,7 +1257,8 @@
 
     footer .email,
     footer .site,
-    footer .phone
+    footer .phone,
+    footer .links
     {
         width: 100%;
         margin-top: 20px;
@@ -1275,6 +1271,14 @@
         height: auto;
 
         justify-content: center;
+    }
+
+
+    footer .links
+    {
+        line-height: 120%;
+
+        text-align: center;
     }
 
 

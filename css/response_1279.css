@@ -617,46 +617,9 @@
     }
 
 
-    .try .form
+    .try .order_form .form .img
     {
-        padding: 32px 44px;
-
-        border-radius: 88px;
-    }
-
-
-    .try .form .title
-    {
-        font-size: 21px;
-    }
-
-    .try .form .title b
-    {
-        font-size: 32px;
-    }
-
-
-    .try .form .fields
-    {
-        width: calc(100% - 240px);
-    }
-
-
-    .try .data .hero
-    {
-        top: -100px;
-        left: 80px;
-    }
-
-    .try .data .hero2
-    {
-        top: -84px;
-    }
-
-    .try .data .hero3
-    {
-        top: -88px;
-        right: 88px;
+        width: 72px;
     }
 
 
@@ -717,12 +680,12 @@
     }
 
 
-    .master .item
+    .master .row .item
     {
         font-size: 20px;
     }
 
-    .master .item .thumb
+    .master .row .item .thumb
     {
         margin-bottom: 20px;
 
@@ -736,35 +699,33 @@
     -----------------*/
     .master_form
     {
-        min-height: 780px;
-        margin-bottom: 20px;
-        padding: 100px 0 122px;
+        padding: 80px 0;
     }
 
 
-    .master_form .item
+    .master_form .items .item
     {
         font-size: 17px;
     }
 
-    .master_form .item b
+    .master_form .items .item b
     {
         font-size: 21px;
     }
 
 
-    .master_form .item .thumb
+    .master_form .items .item .thumb
     {
         height: 200px;
         margin-top: 8px;
     }
 
-    .master_form .item .thumb img
+    .master_form .items .item .thumb img
     {
         max-width: 81%;
     }
 
-    .master_form .item .thumb img.absolute
+    .master_form .items .item .thumb img.absolute
     {
         max-width: 72%;
     }
@@ -772,7 +733,7 @@
 
     .master_form .data
     {
-        margin-top: 40px;
+        margin-top: 28px;
     }
 
 
@@ -782,28 +743,9 @@
     }
 
 
-    .master_form .form
+    .master_form .form .img
     {
-        padding: 32px 64px;
-
-        border-radius: 88px;
-    }
-
-
-    .master_form .form .title
-    {
-        font-size: 19px;
-    }
-
-    .master_form .form .title b
-    {
-        font-size: 32px;
-    }
-
-
-    .master_form .form .fields
-    {
-        width: calc(100% - 200px);
+        width: 148px;
     }
 
 
@@ -901,9 +843,7 @@
     ------------------*/
     .your_results
     {
-        min-height: 964px;
-        margin-bottom: 24px;
-        padding: 92px 0 100px;
+        padding: 80px 0;
     }
 
 
@@ -918,31 +858,6 @@
     .your_results .results .img
     {
         width: 680px;
-    }
-
-
-    .your_results .form
-    {
-        padding: 32px 64px;
-
-        border-radius: 88px;
-    }
-
-
-    .your_results .form .title
-    {
-        font-size: 21px;
-    }
-
-    .your_results .form .title b
-    {
-        font-size: 32px;
-    }
-
-
-    .your_results .form .fields
-    {
-        width: calc(100% - 220px);
     }
 
 
@@ -962,6 +877,129 @@
 
         width: 112px;
         height: auto;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .form
+    {
+        padding: 32px 48px;
+
+        border-radius: 88px;
+    }
+
+
+    .order_form .form .col_left
+    {
+        width: 204px;
+    }
+
+
+    .order_form .form .title
+    {
+        font-size: 21px;
+    }
+
+    .order_form .form .title b
+    {
+        font-size: 32px;
+    }
+
+
+    .order_form .form .desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+
+    .order_form .form .fields
+    {
+        width: calc(100% - 232px);
+    }
+
+
+    .order_form .form .img
+    {
+        left: 100px;
+
+        width: 92px;
+    }
+
+
+    .order_form .hero
+    {
+        top: -100px;
+        left: 80px;
+    }
+
+    .order_form .hero2
+    {
+        top: -84px;
+    }
+
+    .order_form .hero3
+    {
+        top: -88px;
+        right: 88px;
+    }
+
+
+    .order_form .all_btn
+    {
+        margin-top: 40px;
+    }
+
+    .order_form .all_btn .btn
+    {
+        font-size: 18px;
+
+        padding: 11px 43px 12px;
+    }
+
+    .order_form .all_btn .btn .icon
+    {
+        right: 16px;
+    }
+
+
+    .order_form .participants
+    {
+        margin-top: 32px;
+    }
+
+    .order_form .participants .item
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .order_form .participants .item .number
+    {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+
+    .order_form .more_btn
+    {
+        margin-top: 40px;
+    }
+
+    .order_form .more_btn .btn
+    {
+        font-size: 18px;
+
+        padding: 11px 43px 12px;
+    }
+
+    .order_form .more_btn .btn .icon
+    {
+        right: 16px;
     }
 
 
@@ -1329,6 +1367,12 @@
     footer .cont + .cont
     {
         margin-top: 36px;
+    }
+
+
+    footer .links
+    {
+        font-size: 20px;
     }
 
 

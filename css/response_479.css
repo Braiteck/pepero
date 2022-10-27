@@ -358,42 +358,6 @@
     }
 
 
-    .try .data
-    {
-        margin-top: 40px;
-    }
-
-
-    .try .form
-    {
-        width: calc(100% + 48px);
-        margin-right: -24px;
-        margin-left: -24px;
-        padding: 40px 24px 48px;
-
-        border-radius: 0;
-    }
-
-
-    .try .form .title
-    {
-        font-size: 18px;
-    }
-
-    .try .form .title b
-    {
-        font-size: 24px;
-    }
-
-
-    .try .data .hero,
-    .try .data .hero2,
-    .try .data .hero3
-    {
-        display: none;
-    }
-
-
 
     /*-------------
         Recipes
@@ -433,13 +397,13 @@
     }
 
 
-    .master .item .thumb
+    .master .row .item .thumb
     {
         width: 84px;
         height: 84px;
     }
 
-    .master .item .thumb + *
+    .master .row .item .thumb + *
     {
         width: calc(100% - 104px);
     }
@@ -449,20 +413,13 @@
     /*-----------------
         Master form
     -----------------*/
-    .master_form
-    {
-        min-height: 778px;
-        padding: 80px 0 108px;
-    }
-
-
-    .master_form .item b
+    .master_form .items .item b
     {
         font-size: 17px;
     }
 
 
-    .master_form .item .thumb
+    .master_form .items .item .thumb
     {
         height: 80px;
     }
@@ -471,17 +428,6 @@
     .master_form .block_title
     {
         font-size: 24px;
-    }
-
-
-    .master_form .form
-    {
-        width: calc(100% + 48px);
-        margin-right: -24px;
-        margin-left: -24px;
-        padding: 28px 24px 48px;
-
-        border-radius: 0;
     }
 
 
@@ -547,13 +493,6 @@
     /*------------------
         Your results
     ------------------*/
-    .your_results
-    {
-        min-height: 888px;
-        padding: 70px 0;
-    }
-
-
     .your_results .block_title
     {
         font-size: 26px;
@@ -562,7 +501,11 @@
     }
 
 
-    .your_results .form
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .form
     {
         width: calc(100% + 48px);
         margin-right: -24px;
@@ -570,17 +513,6 @@
         padding: 40px 24px 48px;
 
         border-radius: 0;
-    }
-
-
-    .your_results .form .title
-    {
-        font-size: 18px;
-    }
-
-    .your_results .form .title b
-    {
-        font-size: 24px;
     }
 
 

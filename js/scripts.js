@@ -220,6 +220,22 @@ $(() => {
 	new Rellax('.rellax')
 
 
+	// Участники
+	$('.order_form .all_btn .btn').click(function (e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.order_form')
+
+		if (!$(this).hasClass('active')) {
+			$(this).toggleClass('active')
+			parent.find('.participants').slideDown(300)
+		} else {
+			$(this).toggleClass('active')
+			parent.find('.participants').slideUp(200)
+		}
+	})
+
+
 	// Fancybox
 	Fancybox.defaults.autoFocus = false
 	Fancybox.defaults.dragToClose = false
